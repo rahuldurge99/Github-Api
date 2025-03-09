@@ -39,8 +39,8 @@ function Github() {
 
      <img className='align-middle' src ={data.avatar_url} width={300}  />
 
-     <button className='text-center m-4 text-white bg-gray-600 p-4 text-3xl' variant="primary" onClick={repoDataURL}>
-            List my public repos!
+     <button className='text-center m-4 text-white bg-gray-600 p-4 text-3xl rounded-xl ' variant="primary" onClick={repoDataURL}>
+            Click for Repository
           </button>
 
      <div className='text-center m-4 text-black bg-gray-100 p-4 text-3xl'
